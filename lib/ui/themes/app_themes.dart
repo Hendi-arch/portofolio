@@ -47,6 +47,12 @@ TextTheme _lightTextTheme() {
   final base = ThemeData.light().textTheme;
   return base
       .copyWith(
+          headline5: base.headline5!.copyWith(
+              fontSize: 24,
+              fontStyle: FontStyle.normal,
+              fontWeight: FontWeight.w900,
+              color: kText3Color,
+              letterSpacing: 2.0),
           headline4: base.headline4!.copyWith(
               fontSize: 34,
               fontStyle: FontStyle.normal,
@@ -55,6 +61,5 @@ TextTheme _lightTextTheme() {
               letterSpacing: 2.0),
           subtitle1: base.subtitle1!.copyWith(fontSize: 16, fontStyle: FontStyle.normal, fontWeight: FontWeight.bold),
           subtitle2: base.subtitle2!
-              .copyWith(fontSize: 14, fontStyle: FontStyle.normal, fontWeight: FontWeight.bold, color: kText2Color))
-      .apply(fontFamily: 'Lato');
+              .copyWith(fontSize: 14, fontStyle: FontStyle.normal, fontWeight: FontWeight.bold, color: kText2Color));
 }
