@@ -20,13 +20,13 @@ class TopRightComponent extends StatelessWidget {
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(30.0), bottomLeft: Radius.circular(30.0))),
             child: Row(children: [
               twentyPx,
-              CircleSocial(socialUrl: myGithub, socialImgUrl: gitHubThumb),
+              CircleSocial(socialUrl: myGithub, socialImgUrl: gitHubThumb, tooltip: '(Hendi) Github'),
               twentyPx,
-              CircleSocial(socialUrl: mylinkedIn, socialImgUrl: linkedInThumb),
+              CircleSocial(socialUrl: mylinkedIn, socialImgUrl: linkedInThumb, tooltip: '(Hendi) LinkedIn'),
               twentyPx,
-              CircleSocial(socialUrl: myInstagram, socialImgUrl: instagramThumb),
+              CircleSocial(socialUrl: myInstagram, socialImgUrl: instagramThumb, tooltip: '(Hendi) Instagram'),
               twentyPx,
-              CircleSocial(socialUrl: myFacebook, socialImgUrl: facebookThumb)
+              CircleSocial(socialUrl: myFacebook, socialImgUrl: facebookThumb, tooltip: '(Hendi) Facebook')
             ])),
         alignment: const Alignment(1.0, -0.45));
   }

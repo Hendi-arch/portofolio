@@ -7,6 +7,7 @@ import 'card_element/card_title.dart';
 class CardFolio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final _theme = Theme.of(context);
     final _size = MediaQuery.of(context).size;
     return Align(
         alignment: Alignment.bottomCenter,
@@ -17,17 +18,24 @@ class CardFolio extends StatelessWidget {
                 child: Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
                   CardTitle(),
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                    CardSkills(title: 'Mobile Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb),
-                    CardSkills(title: 'Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb)
+                    CardSkills(
+                        title: 'Mobile Development',
+                        subtitle: 'Dart & Flutter.',
+                        thumbUrl: mobileDevThumb),
+                    CardSkills(title: 'Web Development', subtitle: 'Dart & Flutter.', thumbUrl: webDevThumb)
                   ]),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                    CardSkills(title: 'Mobile Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb),
-                    CardSkills(title: 'Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb)
-                  ]),
-                  Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                    CardSkills(title: 'Mobile Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb),
-                    CardSkills(title: 'Development', subtitle: 'Dart, Flutter', thumbUrl: developmentThumb)
-                  ])
+                  UnconstrainedBox(
+                      child: CardSkills(
+                          title: 'Desktop Development', subtitle: 'Dart & Flutter.', thumbUrl: desktopDevThumb)),
+                  RichText(
+                      text: TextSpan(
+                          text: 'SINGLE CODEBASE, ',
+                          style: _theme.textTheme.subtitle1!.apply(color: _theme.colorScheme.secondary),
+                          children: [
+                        TextSpan(
+                            text: 'FOR ALL PLATFORM.',
+                            style: _theme.textTheme.subtitle1!.apply(color: _theme.textTheme.headline4!.color))
+                      ]))
                 ]))));
   }
 }
