@@ -10,16 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f63dd4c8-b4c0-45f1-8864-e06b77e9d3cb" name="Default Changelist" comment="initial commit">
+    <list default="true" id="f63dd4c8-b4c0-45f1-8864-e06b77e9d3cb" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/hendinoviansyah.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/constant/thumbnail/thumb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constant/thumbnail/thumb.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/landing/landing_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/landing/landing_view.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/landing/local_widgets/card_folio.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/landing/local_widgets/card_folio.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/landing/local_widgets/circle_social.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/landing/local_widgets/circle_social.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/landing/local_widgets/top_right_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/landing/local_widgets/top_right_component.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +50,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="additionalArgs" value="--no-sound-null-safety --web-renderer html" />
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616334271636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1616339601179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616339601179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,5 +120,27 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616943075555">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.811@0.23.1440.811" timestamp="1616943075555" />
+    <state width="1398" height="277" key="GridCell.Tab.0.bottom" timestamp="1616943085119">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1616943085119" />
+    <state width="1398" height="277" key="GridCell.Tab.0.center" timestamp="1616943085118">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="277" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1616943085118" />
+    <state width="1398" height="277" key="GridCell.Tab.0.left" timestamp="1616943085118">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="277" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1616943085118" />
+    <state width="1398" height="277" key="GridCell.Tab.0.right" timestamp="1616943085119">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1398" height="277" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1616943085119" />
   </component>
 </project>

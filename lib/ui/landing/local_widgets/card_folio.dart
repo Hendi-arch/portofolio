@@ -18,15 +18,10 @@ class CardFolio extends StatelessWidget {
                 child: Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
                   CardTitle(),
                   Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                    CardSkills(
-                        title: 'Mobile Development',
-                        subtitle: 'Dart & Flutter.',
-                        thumbUrl: mobileDevThumb),
-                    CardSkills(title: 'Web Development', subtitle: 'Dart & Flutter.', thumbUrl: webDevThumb)
+                    CardSkills(title: 'Mobile Development', subtitle: 'Dart & Flutter.', thumbUrl: mobileDevThumb),
+                    CardSkills(title: 'Web Development', subtitle: 'Dart & Flutter.', thumbUrl: webDevThumb),
+                    CardSkills(title: 'Desktop Development', subtitle: 'Dart & Flutter.', thumbUrl: desktopDevThumb)
                   ]),
-                  UnconstrainedBox(
-                      child: CardSkills(
-                          title: 'Desktop Development', subtitle: 'Dart & Flutter.', thumbUrl: desktopDevThumb)),
                   RichText(
                       text: TextSpan(
                           text: 'SINGLE CODEBASE, ',

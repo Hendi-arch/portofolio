@@ -8,6 +8,11 @@ class LandingView extends StatelessWidget {
   @override
   Widget build(_) => ViewModelBuilder<LandingViewModel>.nonReactive(
       viewModelBuilder: () => LandingViewModel(),
-      builder: (_, __, ___) =>
-          Scaffold(body: Stack(children: [MyPicture(), TopLeftComponent(), TopRightComponent(), CardFolio()])));
+      builder: (_, __, ___) => Scaffold(
+              body: Stack(children: [
+            MyPicture(),
+            TopLeftComponent(),
+            TopRightComponent(),
+            CardFolio(),
+          ])));
 }
